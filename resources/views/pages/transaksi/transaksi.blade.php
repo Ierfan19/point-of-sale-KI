@@ -16,7 +16,7 @@
               <tr>
                 <th> No </th>
                 <th> Nama Barang </th>
-                <th> Harga </th>
+                             <th> Harga </th>
                 <th> Stok </th>
                 <th> Kategori </th>
                 <th> Action </th>
