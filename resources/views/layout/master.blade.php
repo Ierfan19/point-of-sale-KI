@@ -4,12 +4,7 @@
   <title>Week 20 KI</title>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  
-  <!-- CSRF Token -->
-  <meta name="_token" content="{{ csrf_token() }}">
-  
-  <link rel="shortcut icon" href="{{ asset('/favicon.ico') }}">
+  <link rel="shortcut icon" href="{{ asset('/assets/images/favicon.png') }}">
 
   <!-- plugin css -->
   <link rel="stylesheet" href="{{ asset('assets/plugins/@mdi/font/css/materialdesignicons.min.css')}}">

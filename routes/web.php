@@ -24,6 +24,7 @@ use App\Http\Controllers\CategoryController;
 */
 
 Route::get('/', [DashboardController::class, 'getViewDash'])->middleware('auth');
+Route::get('/dashboard', [DashboardController::class, 'getViewDash'])->middleware('auth');
 Route::get('/transaksi', [TransaksiController::class, 'index'])->middleware('auth');
 
 // Route::get('/','DashboardController@index');

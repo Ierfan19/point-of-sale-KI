@@ -27,7 +27,7 @@
             <tr>
                 <td class="py-1"> {{$loop->iteration}} </td>
                 <td> {{$row->nama_barang}} </td>
-                <td> {{$row->harga}} </td>
+                <td> {{ number_format((float)($row->harga), 2) }} </td>
                 <td> {{$row->stok}} </td>
                 <td> {{$row->Category->nama_kategori}} </td>
                 <td>
