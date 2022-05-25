@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Week 20 KI</title>
+  <title>Week 20 pos_KI</title>
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <link rel="shortcut icon" href="{{ asset('/assets/images/favicon.png') }}">
